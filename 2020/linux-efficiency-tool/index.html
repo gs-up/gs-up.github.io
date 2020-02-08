@@ -46,15 +46,24 @@
   };
 </script>
 
-  <meta property="og:type" content="website">
-<meta property="og:title" content="XiaoGan&#39;s Blog">
-<meta property="og:url" content="http://gs-up.github.io/archives/2020/">
+  <meta name="description" content="鄙人使用linux时间不长，但也摸索出linux环境下开发的几个效率工具，现分享给大家，并不断更新。  tmuxgithub安装&amp;nbsp;&amp;nbsp;使用教程    推荐理由：  会话保存在服务端，不用担心断网导致工作状态丢失 多窗口管理，方便并发处理多个任务，用熟练了能极大提高效率">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Linux环境下开发所使用的效率工具">
+<meta property="og:url" content="http://gs-up.github.io/2020/linux-efficiency-tool/">
 <meta property="og:site_name" content="XiaoGan&#39;s Blog">
+<meta property="og:description" content="鄙人使用linux时间不长，但也摸索出linux环境下开发的几个效率工具，现分享给大家，并不断更新。  tmuxgithub安装&amp;nbsp;&amp;nbsp;使用教程    推荐理由：  会话保存在服务端，不用担心断网导致工作状态丢失 多窗口管理，方便并发处理多个任务，用熟练了能极大提高效率">
 <meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://gs-up.github.io/2020/linux-efficiency-tool/Tmux-Manage-Multiple-Linux-Terminals.png">
+<meta property="og:image" content="http://gs-up.github.io/2020/linux-efficiency-tool/eastwood.jpg">
+<meta property="og:image" content="http://gs-up.github.io/2020/linux-efficiency-tool/ripgrep.png">
+<meta property="article:published_time" content="2020-02-08T02:48:10.000Z">
+<meta property="article:modified_time" content="2020-02-08T04:25:21.080Z">
 <meta property="article:author" content="xiaogan">
+<meta property="article:tag" content="linux">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://gs-up.github.io/2020/linux-efficiency-tool/Tmux-Manage-Multiple-Linux-Terminals.png">
 
-<link rel="canonical" href="http://gs-up.github.io/archives/2020/">
+<link rel="canonical" href="http://gs-up.github.io/2020/linux-efficiency-tool/">
 
 
 <script id="page-configurations">
@@ -62,11 +71,11 @@
   CONFIG.page = {
     sidebar: "",
     isHome: false,
-    isPost: false
+    isPost: true
   };
 </script>
 
-  <title>归档 | XiaoGan's Blog</title>
+  <title>Linux环境下开发所使用的效率工具 | XiaoGan's Blog</title>
   
 
 
@@ -170,93 +179,157 @@
           <div class="content">
             
 
+  <div class="posts-expand">
+      
   
   
+  <article itemscope itemtype="http://schema.org/Article" class="post-block " lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://gs-up.github.io/2020/linux-efficiency-tool/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="xiaogan">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="XiaoGan's Blog">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          Linux环境下开发所使用的效率工具
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2020-02-08 10:48:10 / 修改时间：12:25:21" itemprop="dateCreated datePublished" datetime="2020-02-08T10:48:10+08:00">2020-02-08</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7/" itemprop="url" rel="index">
+                    <span itemprop="name">效率工具</span>
+                  </a>
+                </span>
+            </span>
+
+          
+            <span id="/2020/linux-efficiency-tool/" class="post-meta-item leancloud_visitors" data-flag-title="Linux环境下开发所使用的效率工具" title="阅读次数">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span class="leancloud-visitors-count"></span>
+            </span>
   
-  <div class="post-block">
-    <div class="posts-collapse">
-      <div class="collection-title">
-        <span class="collection-header">嗯..! 目前共计 3 篇日志。 继续努力。</span>
-      </div>
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="fa fa-comment-o"></i>
+      </span>
+      <span class="post-meta-item-text">Valine：</span>
+    
+    <a title="valine" href="/2020/linux-efficiency-tool/#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/2020/linux-efficiency-tool/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
 
       
-    <div class="collection-year">
-      <h1 class="collection-header">2020</h1>
-    </div>
+        <blockquote>
+<p>鄙人使用linux时间不长，但也摸索出linux环境下开发的几个效率工具，现分享给大家，并不断更新。</p>
+</blockquote>
+<h2 id="tmux"><a href="#tmux" class="headerlink" title="tmux"></a>tmux</h2><p><a href="https://github.com/tmux/tmux" target="_blank" rel="noopener">github安装</a>&nbsp;&nbsp;<a href="http://louiszhai.github.io/2017/09/30/tmux/" target="_blank" rel="noopener">使用教程</a> </p>
+<img src="/2020/linux-efficiency-tool/Tmux-Manage-Multiple-Linux-Terminals.png" class="">
 
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
+<p>推荐理由：</p>
+<ul>
+<li>会话保存在服务端，不用担心断网导致工作状态丢失</li>
+<li>多窗口管理，方便并发处理多个任务，用熟练了能极大提高效率<a id="more"></a>
 
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2020-02-08T10:48:10+08:00"
-              content="2020-02-08">
-          02-08
-        </time>
-      </div>
+</li>
+</ul>
+<h2 id="ohmyzsh"><a href="#ohmyzsh" class="headerlink" title="ohmyzsh"></a>ohmyzsh</h2><p><a href="https://github.com/ohmyzsh/ohmyzsh" target="_blank" rel="noopener">github安装</a></p>
+<img src="/2020/linux-efficiency-tool/eastwood.jpg" class="">
 
-      <h2 class="post-title">
-          <a class="post-title-link" href="/2020/linux-efficiency-tool/" itemprop="url">
-            <span itemprop="name">Linux环境下开发所使用的效率工具</span>
-          </a>
-      </h2>
+<p>推荐理由：</p>
+<ul>
+<li>git的配套神器，能看到本地git的分支、修改状态等</li>
+</ul>
+<h2 id="ripgrep"><a href="#ripgrep" class="headerlink" title="ripgrep"></a>ripgrep</h2><p><a href="https://github.com/BurntSushi/ripgrep" target="_blank" rel="noopener">github安装</a></p>
+<img src="/2020/linux-efficiency-tool/ripgrep.png" class="">
 
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2020-02-04T11:42:02+08:00"
-              content="2020-02-04">
-          02-04
-        </time>
-      </div>
-
-      <h2 class="post-title">
-          <a class="post-title-link" href="/2020/how-to-prepare-application/" itemprop="url">
-            <span itemprop="name">如何准备实习求职并拿到微信offer</span>
-          </a>
-      </h2>
-
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2020-01-31T19:38:36+08:00"
-              content="2020-01-31">
-          01-31
-        </time>
-      </div>
-
-      <h2 class="post-title">
-          <a class="post-title-link" href="/2020/intro-build-hexo-blog/" itemprop="url">
-            <span itemprop="name">使用Hexo Next框架搭建个人博客</span>
-          </a>
-      </h2>
-
-    </header>
-  </article>
-
+<p>推荐理由:</p>
+<ul>
+<li>强大的文本快速搜索工具，完全可以替代grep</li>
+</ul>
+<h2 id="clang-format"><a href="#clang-format" class="headerlink" title="clang-format"></a>clang-format</h2><p>推荐理由:</p>
+<ul>
+<li>一键格式化你的代码，适合多人协作时强制代码风格统一</li>
+</ul>
+<h2 id="autojump"><a href="#autojump" class="headerlink" title="autojump"></a>autojump</h2><p>推荐理由：</p>
+<ul>
+<li>快速跳转到最近使用的目录</li>
+</ul>
+<h2 id="vim插件"><a href="#vim插件" class="headerlink" title="vim插件"></a>vim插件</h2><p>使用什么编辑器见仁见智，我比较喜欢用vim，有个终端就能开发，开发过程中手不用离开键盘，缺点就是上手比较慢，需要自己配置多个插件。下面列一下我觉得比较好用的几个vim插件：</p>
+<ul>
+<li><a href="https://www.gnu.org/software/global/" target="_blank" rel="noopener">gtags</a> 建立本地索引，一键找到某个变量的定义和引用</li>
+<li><a href="https://www.vim.org/scripts/script.php?script_id=31" target="_blank" rel="noopener">a.vim</a> 切换头文件、实现文件</li>
+</ul>
 
     </div>
+
+    
+    
+    
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/linux/" rel="tag"># linux</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2020/how-to-prepare-application/" rel="prev" title="如何准备实习求职并拿到微信offer">
+      <i class="fa fa-chevron-left"></i> 如何准备实习求职并拿到微信offer
+    </a></div>
+      <div class="post-nav-item"></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
   </div>
-  
-  
-  
-
-  
-
 
 
           </div>
           
+    <div class="comments" id="valine-comments"></div>
 
 <script>
   window.addEventListener('tabs:register', () => {
@@ -303,6 +376,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#tmux"><span class="nav-number">1.</span> <span class="nav-text">tmux</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#ohmyzsh"><span class="nav-number">2.</span> <span class="nav-text">ohmyzsh</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#ripgrep"><span class="nav-number">3.</span> <span class="nav-text">ripgrep</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#clang-format"><span class="nav-number">4.</span> <span class="nav-text">clang-format</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#autojump"><span class="nav-number">5.</span> <span class="nav-text">autojump</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#vim插件"><span class="nav-number">6.</span> <span class="nav-text">vim插件</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
